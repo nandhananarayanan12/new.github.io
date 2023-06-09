@@ -1,0 +1,143 @@
+header {
+    padding: 0px;
+    z-index: 0;
+}
+
+nav {
+    background-color: rgba(60, 56, 56, 0.634);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    margin-top: 44px;
+}
+
+.nav-links {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #dcd5d5;
+}
+
+.nav-links li a :hover {
+    background-color: blue;
+}
+
+.search_bar {
+    list-style: none;
+    display: inline-block;
+}
+
+.search_bar li {
+    display: inline;
+    margin: 0 20px 800px;
+}
+
+.search {
+    height: 50px;
+    width: 400%;
+    border-radius: 50px;
+    border: 0px;
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+
+
+/* .search :hover {
+    cursor: pointer;
+    color: #fff;
+} */
+
+
+/* cards start */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card .btn:hover {
+    background-color: #555;
+}
+
+
+/* end of cards */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
